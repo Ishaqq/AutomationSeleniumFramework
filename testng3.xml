@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="YourSuiteName">
+    <listeners>
+        <listener class-name="baseComponentsFramework3.Listeners" />
+    </listeners>
+    
+    <test thread-count="5" name="BuyProduct">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="frameworkPart3.BuyProduct" />
+        </classes>
+    </test> <!-- Test -->
+    
+    <test thread-count="5" name="BuyProduct2">
+        <classes>
+            <class name="frameworkPart3.SendingDataInHashMap" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

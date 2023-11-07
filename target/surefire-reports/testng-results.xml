@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-02T13:00:01 PKT" name="YourSuiteName" finished-at="2023-11-02T13:00:45 PKT" duration-ms="43622">
+    <groups>
+      <group name="Smoke">
+        <method signature="SendingDataInHashMap.standAloneTest(java.util.HashMap)[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" name="standAloneTest" class="frameworkPart3.SendingDataInHashMap"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-02T13:00:01 PKT" name="BuyProduct" finished-at="2023-11-02T13:00:01 PKT" duration-ms="13">
+    </test> <!-- BuyProduct -->
+    <test started-at="2023-11-02T13:00:01 PKT" name="BuyProduct2" finished-at="2023-11-02T13:00:45 PKT" duration-ms="43275">
+      <class name="frameworkPart3.SendingDataInHashMap">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:02 PKT" name="launchApplication" finished-at="2023-11-02T13:00:20 PKT" duration-ms="18021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standAloneTest(java.util.HashMap)[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:20 PKT" name="standAloneTest" data-provider="getData" finished-at="2023-11-02T13:00:30 PKT" duration-ms="10349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, email=test765@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:30 PKT" name="tearDown" finished-at="2023-11-02T13:00:30 PKT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:30 PKT" name="launchApplication" finished-at="2023-11-02T13:00:44 PKT" duration-ms="13786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="standAloneTest(java.util.HashMap)[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:44 PKT" name="standAloneTest" data-provider="getData" finished-at="2023-11-02T13:00:45 PKT" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test12345, email=test765@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standAloneTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frameworkPart3.SendingDataInHashMap@475c9c31]" started-at="2023-11-02T13:00:45 PKT" name="tearDown" finished-at="2023-11-02T13:00:45 PKT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- frameworkPart3.SendingDataInHashMap -->
+    </test> <!-- BuyProduct2 -->
+  </suite> <!-- YourSuiteName -->
+</testng-results>

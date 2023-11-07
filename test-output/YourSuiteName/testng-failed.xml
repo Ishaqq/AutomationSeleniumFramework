@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [YourSuiteName]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="baseComponentsFramework3.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="BuyProduct2(failed)">
+    <classes>
+      <class name="frameworkPart3.SendingDataInHashMap">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="standAloneTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- frameworkPart3.SendingDataInHashMap -->
+    </classes>
+  </test> <!-- BuyProduct2(failed) -->
+</suite> <!-- Failed suite [YourSuiteName] -->
