@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="frameworkPart3.BuyProduct2">
+      <class name="appiumTest.appiumFrameworkTest.FormEcomeEndToEndTest">
         <methods>
-          <include name="standAloneTest" invocation-numbers="0"/>
-          <include name="launchApplication"/>
           <include name="tearDown"/>
+          <include name="fillForm"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- frameworkPart3.BuyProduct2 -->
+      </class> <!-- appiumTest.appiumFrameworkTest.FormEcomeEndToEndTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

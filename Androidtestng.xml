@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="appiumTest.utils.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="appiumTest.appiumFrameworkTest.FormErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EndToEndTest">
+    <classes>
+      <class name="appiumTest.appiumFrameworkTest.FormEcomeEndToEndTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

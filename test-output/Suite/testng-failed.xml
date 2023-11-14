@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="BuyProduct2(failed)">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
+  <listeners>
+    <listener class-name="appiumTest.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EndToEndTest(failed)">
     <classes>
-      <class name="frameworkPart3.SendingDataInHashMap">
+      <class name="appiumTest.appiumFrameworkTest.FormEcomeEndToEndTest">
         <methods>
-          <include name="launchApplication"/>
-          <include name="standAloneTest" invocation-numbers="0 1"/>
           <include name="tearDown"/>
+          <include name="fillForm"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- frameworkPart3.SendingDataInHashMap -->
+      </class> <!-- appiumTest.appiumFrameworkTest.FormEcomeEndToEndTest -->
     </classes>
-  </test> <!-- BuyProduct2(failed) -->
+  </test> <!-- EndToEndTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
